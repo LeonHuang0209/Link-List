@@ -1,0 +1,81 @@
+/* to make 4 lists(sections) side by side and with equal distance*/
+* {
+  margin: 0;
+}
+body {
+  color: #eaeaea;
+  background-color: #222831;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+header {
+  padding: 30px;
+}
+h1 {
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+  color: #00adb5;
+}
+/* hr {} */
+.top-section {
+  font-size: 1.1rem;
+  padding: 20px 2px 50px;
+}
+.inputsDiv,
+.btn {
+  display: inline-block;
+  margin: 0 2%;
+  padding: 20px;
+}
+.name,
+.url {
+  color: #eaeaea;
+  width: 200px;
+  height: 100px;
+  font-size: 1.5rem;
+  background-color: #393e46;
+  text-align: center;
+  border-style: solid;
+}
+.storeBtn {
+  padding: 0;
+  color: #eaeaea;
+  width: 106.5px;
+  height: 105px;
+  font-size: 1rem;
+  background-color: #393e46;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(133, 133, 133);
+}
+
+select {
+  width: 205px;
+  height: 106.5px;
+  font-size: 1.5rem;
+  color: #eaeaea;
+  background-color: #393e46;
+  text-align: center;
+  border-width: 2px;
+}
+
+.parentDiv {
+  padding: 20px;
+  /* background-color: #73a9ad; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.list {
+  font-size: 2rem;
+  padding: 20px;
+  /* background-color: #90c8ac; */
+  margin-bottom: 20px;
+}
+.linkElement {
+  display: block;
+  margin-top: 20px;
+}
